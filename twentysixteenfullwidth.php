@@ -1,21 +1,21 @@
 <?php
 /**
- * Plugin Name: Twenty Sixteen Full Width
- * Plugin URI: http://www.anushkar.com/plugins/twentysixteenfullwidth/
+ * Plugin Name: TSTFullwidth
+ * Plugin URI: http://www.anushkar.com/plugins/tstfullwidth/
  * Description: The custom wordpress plugin to make twenty sixteen theme full width
  * Version: 1.0.0
  * Db Version: 1.0.0
  * Db Remove: No
  * Author: Anushka K R
  * Author URI: http://www.anushkar.com/
- * License: twentysixteenfullwidth
- * Text Domain: twentysixteenfullwidth
+ * License: tstfullwidth
+ * Text Domain: tstfullwidth
  * Icon URL: icon.png
- * License Srv Url: http://www.anushkar.com/plugins/twentysixteenfullwidth/license
+ * License Srv Url: http://www.anushkar.com/plugins/tstfullwidth/license
  * License Secert: RGVtbyBMaWNlbnNl
- * UserDocumentation: http://www.anushkar.com/plugins/twentysixteenfullwidth/UserDocumentation
- * DevDocumentation:  http://www.anushkar.com/plugins/twentysixteenfullwidth/DevDocumentation
- * HelpAndSupport: http://www.anushkar.com/plugins/twentysixteenfullwidth/HelpAndSupport
+ * UserDocumentation: http://www.anushkar.com/plugins/tstfullwidth/UserDocumentation
+ * DevDocumentation:  http://www.anushkar.com/plugins/tstfullwidth/DevDocumentation
+ * HelpAndSupport: http://www.anushkar.com/plugins/tstfullwidth/HelpAndSupport
  * Environment: Live
  *
  *
@@ -50,9 +50,9 @@ $default_headers = array(
 $_plugindata = get_file_data(__FILE__,$default_headers) ;
 
 
-function Twenty_Sixteen_fullwidth_scripts() {
+function tst_fullwidth_scripts() {
 	$dir = plugin_dir_url( __FILE__ );
 	wp_enqueue_style( 'tsfw-style',$dir.'css/style.css',array(),$_plugindata['Version'],'all');
 }
 
-add_action( 'wp_enqueue_scripts', 'Twenty_Sixteen_fullwidth_scripts' );
+add_action( 'wp_enqueue_scripts', 'tst_fullwidth_scripts' );

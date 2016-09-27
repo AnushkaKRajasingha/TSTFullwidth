@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: anushkakr
 Donate link: http://anushkar.com/donate
-Tags: Twenty Sixteen,Custom Layout, One Column
+Tags: Full Width Theme ,Custom Layout, One Column
 Requires at least: 3.0.1
 Tested up to: 4.6.1
 Stable tag: 4.6.1
@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 The custom wordpress plugin to make twenty sixteen theme full width.
 
 == Description == 
-The custom wordpress plugin to make twenty sixteen theme full width , Simply activate the theme and make your twenty sixteen theme full width.
+The custom wordpress plugin to make wordpress  theme full width , Simply activate the theme and make your wordpress theme full width.
 
 == Installation ==
 
